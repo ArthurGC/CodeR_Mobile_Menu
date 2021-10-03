@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  position: relative;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -27,10 +31,10 @@ header {
   color: white;
 }
 
-#desktop-nav,
+/* #desktop-nav,
 #desktop-nav ul {
   display: none;
-}
+} */
 
 #logo {
   font-family: "Roboto", sans-serif;
@@ -415,6 +419,46 @@ textarea {
   filter:
     invert(67%) sepia(46%) saturate(986%) hue-rotate(179deg)
     brightness(92%) contrast(82%);
+}
+
+@media (max-width: 720px) {
+  .menu-bars {
+    cursor: pointer;
+    z-index: 200;
+  }
+
+  #desktop-nav {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #3C3A39;
+    padding: 3.5rem 2.5rem;
+  }
+
+  #desktop-nav ul li {
+    text-align: left;
+    margin-bottom: .6rem;
+  }
+
+  #desktop-nav ul li .nav-link {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFF5E1;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #6F6C6B;
+  }
+
+  .nav-link .fa-envelope {
+    display: none;
+  }
+
 }
 
 @media all and (min-width: 720px) {
