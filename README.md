@@ -26,7 +26,7 @@ Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEV
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ArthurGC/cr_mobile_menu/issues).
+Feel free to check the [issues page](https://github.com/ArthurGC/CodeR_Mobile_Menu/issues).
 
 ## Acknowledgments
 
