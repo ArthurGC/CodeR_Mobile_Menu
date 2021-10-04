@@ -7,7 +7,7 @@ Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEV
 
 ## :red_circle: Live Demo
 
-- Under construction
+- [Preview Link](https://arthurgc.github.io/CodeR_Mobile_Menu)
 
 ## :hammer: Built With
 
