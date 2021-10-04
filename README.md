@@ -10,10 +10,11 @@ Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEV
 - [Preview Link](https://arthurgc.github.io/CodeR_Mobile_Menu)
 
 ## :hammer: Built With
+- Some frameworks and technologies.
 
 
 ## :blue_book: Learning Objectives
-
+- Learning ...........
 
 ## Authors
 
